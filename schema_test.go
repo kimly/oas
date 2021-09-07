@@ -1,10 +1,9 @@
 package oas
 
 import (
+	"github.com/kimly/oas/ptr"
 	"regexp"
 	"testing"
-
-	"github.com/go-courier/ptr"
 )
 
 func TestSchema(t *testing.T) {
